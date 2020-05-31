@@ -17,7 +17,8 @@ and install it to default location of windows or linux.
 
 
 ### Now run it:
-create a bot:	bot = tinder_bot('user_id', 'password', autoswipe = True/False)
+
+create a bot:	bot = tinder_bot('facebook_user_id', 'facebook_password', autoswipe = True/False)
 
 Log id	    :	bot.login()
 
