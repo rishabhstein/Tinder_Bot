@@ -18,8 +18,11 @@ and install it to default location of windows or linux.
 
 ### Now run it:
 create a bot:	bot = tinder_bot('user_id', 'password', autoswipe = True/False)
+
 Log id	    :	bot.login()
+
 one like    : 	bot.like()
+
 autoswipe   :	bot.autoswipe()
 
 
