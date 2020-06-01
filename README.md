@@ -24,7 +24,7 @@ Log id	    :	bot.login()
 
 one like    : 	bot.like()
 
-autoswipe   :	bot.autoswipe()
+autoswipe   :	bot.Auto_Swipe()
 
 
 If it throughs error simply close the chrome and stop the script and re run it.
