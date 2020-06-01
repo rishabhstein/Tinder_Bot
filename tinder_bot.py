@@ -33,7 +33,7 @@ class tinder_bot():
 
 	"""
 
-	def __init__(self, userid, password, autoswipe = False):
+	def __init__(self, userid, password, bool_autoswipe = False):
 		self.userid 	= userid
 		self.password 	= password
 		self.autoswipe = autoswipe
@@ -106,7 +106,7 @@ class tinder_bot():
 		swipe_left.click()
 
 	def Auto_swipe(self):
-		while(self.autoswipe):
+		while(self.bool_autoswipe):
 			try: 				#Try like button
 				self.like()
 				time.sleep(2)
